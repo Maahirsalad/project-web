@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+     padding : 0;
+     list-style: none;
+     text-decoration: none;
+    
+}
+
+/* header section starts here */
+header{
+    background: #f1c40f;
+    display: flex;
+    position: fixed;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+ 
+img{
+    width: 50px;
+}
+
+h3{
+    position: absolute;
+    top :20px;
+    left:60px;
+    
+}
+
+header .navbar ul {
+    display: flex ;
+    position: absolute;
+    left: 30%;
+    top:25%;
+}
+
+header .navbar ul li{
+    margin-left: 5%;
+   font-size: 30px;
+}
+
+header .navbar ul li a{
+    color: white;
+}
+
+header .navbar ul li a.active{
+    color: black;
+}
+
+header .navbar ul li a:hover {
+    color: black;
+}
+
+/* header section ends here */
+
+
+
+
+/* body section starts here */
+section{
+    min-height: 100vh;
+
+}
+
+.home{
+    background: url(sl.webp) no-repeat repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    display: flex;
+}
+
+h1{
+    color: green;
+    padding :10px;
+    font-size: 50px;
+}
+p{
+    color: green;
+    padding :10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bnt{
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    width:250px;
+    padding :5px;
+      font-size: 30px;
+
+}
+ .bnt a{
+    color: black;
+ }
+
+
+
+
